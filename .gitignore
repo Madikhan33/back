@@ -1,0 +1,75 @@
+# Виртуальное окружение
+venv/
+env/
+ENV/
+.venv
+
+# Python кэш
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Распределённые пакеты
+.eggs/
+*.egg-info/
+*.egg
+dist/
+build/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Логи
+*.log
+logs/
+
+# Переменные окружения
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Тестовое покрытие
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Временные файлы
+*.tmp
+*.bak
+*.orig
+temp/
+tmp/
+
+# IDE специфичное
+.vscode/settings.json
+*.sublime-project
+*.sublime-workspace
+
+# ОС
+Thumbs.db
+.AppleDouble
+.LSOverride
+._*
+
+# Прочее
+.project
+.classpath
+.c9/
+*.class
